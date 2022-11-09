@@ -80,7 +80,7 @@ history = ImageModel.fit(
 )
 
 # prediction for a random image....
-ImgPredict = tf.keras.utils.load_img(r"E:\My Files\Reyad\Study\Coding\Python\Img_Classification_VGG16\predict\1500566326.jpg", target_size=(128, 128))
+ImgPredict = tf.keras.utils.load_img(r"E:\My Files\Reyad\Study\Coding\Python\Img_Classification_VGG16\predict\2697.jpg", target_size=(224, 224))
 ImgPredict = tf.keras.utils.img_to_array(ImgPredict) # Sample Image will convert to an array
 ImgPredict = np.expand_dims(ImgPredict, axis=0) # expand the dimension of the array of this image
 
